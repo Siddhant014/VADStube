@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+    <head>
+         <link href="uploadstyle.css" rel="stylesheet">
+        <title> UPLOAD
+        </title>
+    </head>
+    <script type="text/javascript">
+    function toggle(x)
+    {
+    	var tren=document.getElementById(x);
+    	var arr=document.getElementById("trend");
+    	var maxh="760px";
+    	if(tren.style.height==maxh){
+    	tren.style.height="0px";
+    	arr.innerHTML="&#9759;";
+    	}
+    	else{
+    	tren.style.height=maxh;
+    	arr.innerHTML="&#9759;";
+    	}
+    }
+    </script>
+    <body>     
+        <div class="base">
+        <span class="header1">
+          VADS
+        </span>
+         <span class="header2">
+          tube
+        </span>
+            <span class="header">
+            &#128102;
+        </span>
+        
+             <div id="sidebar1">
+            <form>
+                <input type="text" placeholder="SEARCH" id="sr"><span id="ser" >&#128270;</span>
+                
+            </form>
+            <br><br>
+              <br>
+                <br><br> 
+               <ul class="link">
+                   <li>
+                       <a href="#">Home</a>
+                   </li>
+                    <br><br>
+                     
+                    <li>
+                       <a href="#">Most viewed</a>
+                   </li><br><br>
+                    <li>
+                       <a href="#">My Videos</a>
+                   </li><br><br>
+                   
+               </ul>
+              <br>
+              <br>
+              <button type="text" value="UPLOAD NEW" id="button">UPLOAD NEW</button>
+               <br><br>
+           <br>
+               <br><br>
+              
+              <br>
+                <br>
+              
+               <span > VADStube &#169; 2017</span>
+               <br>
+        </div>
+  
+        </div>
+        
+            <div id="trend" onclick="toggle('trend2')">&#9759;
+            </div>
+        <div id="trend2">
+        <div class="bck">
+        <br>
+        <h2 id="trend1">TRENDING VIDEOS</h2>
+        <br>
+         <table cellspacing="0" cellpadding="">
+            <tr>
+                <td>
+                      <video controls >
+     <source src="HAPPY_MOTHERS_DAY_480p.mp4" type="video/mp4">
+                </td>
+                <td>
+                    <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAPPY MOTHER's DAY</a>
+                </td>
+            </tr>
+           
+            <tr>
+                   <td>
+                    <video controls >
+     <source src="HAPPY_MOTHERS_DAY_480p.mp4" type="video/mp4">
+                </td>
+                <td>
+                     <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAPPY MOTHER's DAY</a>
+                </td>
+            </tr>
+             <tr>
+                   <td>
+                    <video controls >
+     <source src="HAPPY_MOTHERS_DAY_480p.mp4" type="video/mp4">
+                </td>
+                <td>
+                     <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAPPY MOTHER's DAY</a>
+                </td>
+            </tr>
+            <tr>
+                   <td>
+                    <video controls >
+     <source src="HAPPY_MOTHERS_DAY_480p.mp4" type="video/mp4">
+                </td>
+                <td>
+                     <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAPPY MOTHER's DAY</a>
+                </td>
+            </tr>
+        </table>
+</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br><br>
+        
+     
+   
+        <div class="uploadpart">
+            
+        
+        <form method="post" action="upload.php">
+            <input type="file" placeholder="select file" id="file">
+            <br>
+         &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;        <input type="text" placeholder="File Name" id="fname" name="name">
+            <br><br>
+            <input type="radio" name="PREMIUM" id="rpri1">&nbsp;&nbsp;PRIME <input type="radio" name="PREMIUM" id="rpri2">&nbsp;&nbsp;NON-PRIME
+             <br> <br>
+<select name="Genre" id="sgenre" >
+  <option value="Sports">Sports</option>
+  <option value="Music">Music</option>
+  <option value="Acadmics">Acadmics</option>
+  <option value="Movies">Movies</option>
+   <option value="Others">Others</option>
+</select>
+<br>
+<input type="image"  src= "upload-icon-11.jpg" alt="submit" id="simage">
+        </form>
+        </div>
+    
+    </body>
+</html>

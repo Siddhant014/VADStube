@@ -1,0 +1,112 @@
+body{
+	background-image: url("16.jpg");
+}
+input[type=email]{
+    width: 175px;
+    border:2px solid grey;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px grey;
+}
+input[type=password]{
+    border:2px solid grey;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px grey;
+}
+.login input[type=submit]
+{
+   padding: 5px;
+   border: 15px;
+   border-radius: 6px;
+   box-shadow: 2px 2px 8px grey;
+   font-size: 80%;
+   width: 80px;
+   
+    
+}
+video
+{
+    width: 56%;
+    height: 100%;
+    margin: 150px 26%;
+}
+.header1
+{
+    margin-left: 170px;
+    font-size: 70px;
+    font-family: Comic Sans MS;
+    color:white;  
+}
+.header2
+{
+    margin-left: -20px;
+    font-size: 50px;
+    font-family: Comic Sans MS;
+    color:blue;  
+}
+
+#yes
+{
+    position: static;
+    border:0px solid;
+    border-color: red;
+    background-color: crimson;
+    box-shadow: 15px 15px 7px black;
+}
+
+.hover a{
+    text-decoration: none;
+    border: 2px outset grey;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 8px grey;
+    color: white;
+    background-color: grey;
+    border-radius: 2px;
+    font-size: 80%;
+}
+.tile{
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    
+}
+
+.hover a:active{
+    position: relative;
+    top: 2px;
+    border: 2px inset grey;
+}
+ .signup input[type=button]
+{
+   padding: 8px;
+   border: 4px;
+   border-radius: 4px;
+   box-shadow: 2px 2px 8px grey;
+   font-size: 80%;
+   width: 200px;
+   
+}
+.moove{
+    margin-top: 16px;
+}
+.fot {
+    margin-top: 200px;
+    font-family: Sans-Serif;
+    font-style: italic ;
+    color: white;
+}
+.table{
+	margin-bottom:15px;
+  position: relative;
+    border:0px solid;
+    border-color: red;
+    background-color: crimson;
+    box-shadow: 15px 15px 7px black;
+}
+#text{
+    color: white;
+}

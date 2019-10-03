@@ -1,0 +1,217 @@
+body{
+background-color:lightgrey;}
+.header {
+    float: right;
+     border: 2px outset blue ;
+   margin-top: 20px;
+   
+   padding: 6px 12px;
+   border-radius: 8px;
+   box-shadow:5px 5px 10px black; 
+    text-decoration: none;
+   background-color: blue;
+   color: white;
+  margin-left:1150px;
+  margin-right:20px;
+}
+
+
+.header1
+{
+    margin-left: 30px;
+    font-size: 50px;
+    font-family: Comic Sans MS;
+    color:black;  
+}
+.header2
+{
+    margin-left: -15px;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color:blue;  
+}
+.base{
+    margin:-18px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    box-shadow: 5px 5px 10px black;
+    position: fixed;
+    z-index:1000;
+
+}
+#sidebar1{
+    margin-left: 0px;
+    border: 0 solid;
+    width: 275px;
+    padding-right: 25px;
+padding-left: 25px;
+    padding-top: 25px;
+z-index: 20;
+position: fixed;
+
+color: crimson;
+text-align: center;
+box-shadow: 4px 4px 8px black;
+ border-radius: 8px;
+padding-bottom: 35px;
+background-image:url('cool-android-wallpaper-06.jpg');
+margin-top:5px;
+
+}
+
+#sidebar1 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+   
+    
+}
+#sidebar1 li{
+    list-style: none;
+     margin-left: -40px;
+}
+#sidebar1 input[type=text]{
+   width: 200px;
+   padding: 10px;
+margin-left: 10px;
+    margin-top: 80px;
+    
+    border-radius: 8px;
+ 
+ 
+  
+}
+#button{
+    padding: 10px;
+    width:150px;
+    border: 0px solid;
+    cursor: pointer;
+    margin-left: 0px;
+    border-radius: 8px;
+}
+#ser{
+    border:0px solid;
+    padding: 3px;
+    cursor: pointer;
+}
+#trend{
+   
+    position: fixed;
+margin-left: 83%;
+    z-index: 1001;
+    top:-10px;
+    font-size:30px;
+    display:block;
+        cursor: pointer;
+       
+       padding-left:5px;
+       padding-right:5px;
+             border: 2px outset blue ;
+   margin-top: 20px;
+   
+  
+   border-radius: 8px;
+   box-shadow:5px 5px 10px black; 
+    
+   background-color: blue;
+}
+#trend:active{
+ border: 2px inset blue ;
+}
+video{
+    width:200px;
+    height: 15%;
+}
+#trend2{
+border:0px solid ;
+box-shadow:-4px 4px 8px 0px black;
+z-index: 99;
+width:450px;
+height:0px;
+overflow:hidden;
+margin-left:980px;
+position:fixed;
+padding-top:30px;
+float:right;
+border-radius:8px;
+text-align:center;
+padding-bottom:23px;
+
+transition:height 0.3s linear 0s;
+  
+}
+.bck{
+background-image:url("rock-roll-music-blurred-background-electric-guitar-player-stage-colorful-scenic-illumination-82514915.jpg");
+
+ }
+#trend2 a{
+
+ color: black;
+text-decoration:none;
+ 
+
+}
+#file{
+  padding: 25px;
+  width:260px;
+  border:2px  outset ;
+  cursor: pointer;
+  border-radius: 8px;
+  display: block;
+  margin-left:75px;
+  box-shadow:2px 2px 2px 2px;
+  background:black;
+  color:white;
+   font-size:15px;
+    font-weight: bold;
+}
+#file:active{
+      border:2px  inset ;
+}
+#fname{
+    width:290px;
+    height:30px;
+    border:2px inset ;
+     cursor: pointer;
+  border-radius: 8px;
+  padding-left:15px;
+    font-size:15px;
+    font-weight: bold;
+    
+   box-shadow:2px 2px 2px 2px;
+}
+.uploadpart{
+    font-size: 25px;
+    z-index 6;
+    margin-left:600px;
+}
+#sgenre{
+    width:310px;
+    height:50px;
+    font-size:15px;
+    font-weight: bold;
+   display: block;
+  margin-left:75px; 
+   box-shadow:2px 2px 2px 2px;
+   padding-left:15px;
+   
+}
+#simage{
+    width:300px;
+    border:2px outset ;
+     cursor: pointer;
+  border-radius: 8px;
+   margin-left:75px;
+    box-shadow:2px 2px 2px 2px;
+}
+#rpri1{
+ margin-left:75px; 
+  box-shadow:2px 2px 2px 2px;
+  margin-top:15px;
+ }
+#rpri2{
+ margin-left:35px; 
+  box-shadow:2px 2px 2px 2px;
+  margin-top:15px;
+ }
+		

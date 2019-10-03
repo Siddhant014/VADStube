@@ -1,0 +1,102 @@
+ <!doctype html>
+<html>
+    <head>
+        <link href="signstyle.css" rel="stylesheet">
+            <title>
+                SIGN UP IN VADS
+            </title>
+		<script text= "text/javascript">
+		function check()
+		{	
+			var x = 0;
+			if((!document.signup.fname.value.match(/^[A-Za-z]+$/)&& !document.signup.fname.value=="")||(!document.signup.lname.value.match(/^[A-Za-z]+$/)&& !document.signup.lname.value==""))
+					{
+						alert ("Alphabets only in Name");
+						x++;
+					}
+			if(!document.signup.uid.value.match(/^[A-Za-z0-9@_.]+$/)&& !document.signup.uid.value=="")
+					{
+						alert ("Special characters not allowed in Unique ID");
+						x++;
+					}
+			if(!document.signup.password.value.match(/^.{6,}$/)&& !document.signup.password.value=="")
+					{
+						alert ("Minimum 6 characters in password");
+						x++;
+					}
+			if(document.signup.password.value!=document.signup.cpassword.value && !document.signup.cpassword.value=="" )
+					{
+						alert("Password don't match");
+						x++;
+					}
+			if(!document.signup.dob.value.match(/^((19|20)?[0-9]{2}[-](0?[1-9]|1[012])[-](0?[1-9]|[12][0-9]|3[01]))*$/)&& !document.signup.dob.value=="")
+					{
+						alert ("Invalid date of birth");
+						x++;
+					}
+			if(x==0)
+				return true;
+			else
+				return false;
+		}
+		</script>
+    </head>
+    <body>
+        <span class="header">
+            <a href="http://localhost/projectdbnw/Login%20Page/login.html">Log in</a>
+        </span>
+        <h1>
+             CREATE YOUR VADS ACCOUNT
+        </h1> 
+        <div class="sin">
+            &nbsp;&nbsp;&nbsp;
+            <font color="Black">
+                <form method="post" name="signup" onsubmit="return check()" action="saveinsql.php" >
+                   <br> <span class="name">
+                        <input type="text" placeholder=" First Name" name="fname" required>&nbsp;<input type="text" placeholder=" Last Name" name = "lname" required>*
+                    </span>
+                    <br><br>
+                    <span class="pss">
+                        <input type="email" placeholder=" Email: ...@xyz.com" name ="email" required>*
+                    </span>
+                    <br><br>
+                    <span class="pss">
+                        <input type="text" placeholder=" Choose your UserId" name ="uid" required>*
+                    </span>
+                    <br><br>
+                    <span class="pss">
+                        <input type="password" name="password" placeholder="Create a password" required>*
+                    </span>
+                    <br><br>
+                    <span class="pss">
+                        <input type="password" placeholder="Confirm your password" name="cpassword" required>*
+                    </span>
+                    <br><br>
+                    <span class="bday">
+                        <input type="text" name="dob" placeholder="Birthday:: yyyy-mm-dd ">
+                    </span>
+                    <br><br>
+                    
+                    <span class="acc">
+                        <select name="gender">
+                            <option value="Male"> Male</option>
+                            <option value="Female"> Female</option>
+                            <option value="others"> Others</option>
+                        </select>
+                    </span>
+                    <br><br>
+                    <span class="acc"><br>
+					<input type="checkbox" name="premium">Check this for a <b>PREMIUM </b>account  
+                    </span>
+                    </font>
+                    <br><br><br>
+                    <span class="sumit">
+                        &nbsp;&nbsp;
+						
+                        <input type="submit" value="Sign Up" onclick="check()">
+                    </span>
+                    <br> <br> <br> 
+                </div>       
+           </form>
+    </body>
+</html>
